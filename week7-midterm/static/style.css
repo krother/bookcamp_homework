@@ -1,0 +1,28 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(96, 137, 180);
+}
+.header {
+    background-color: rgb(34, 49, 65);
+    color: white;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right:150px;
+
+    margin: 0px;
+}
+.content {
+    background-color: rgb(96, 137, 180);
+    color: black;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right:150px;
+
+    margin: 0px;
+}

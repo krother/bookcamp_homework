@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <title>PixPro - the Art Bot</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>PixPro - the Art Bot</h1>
+        <p>Upload a piece of art and find out what a machine learning model sees in it</p>
+    </div>
+
+    <div class="content">
+
+    <h3>How it works</h3>
+    <p>The model consists of 3 Decision Tree regressors that try to predict the R, G and B color value of each pixel given its position.
+        Because the model has been constrained by limiting the maximum depth, the generated image is a generalized version of the original art.
+    </p>
+    <h3>Upload an image</h3>
+
+        <form method=post enctype=multipart/form-data>
+            <input type=file name=file><br><br>
+            <input type=submit value="Train Model">
+          </form>
+
+          <p>
+            This project was created as homework of Alexey Grigoryevs 
+            <b><a href="https://github.com/alexeygrigorev/mlbookcamp-code">Machine Learning Bookcamp</a></b>.
+        </p>
+    
+    <p>Created by <a href="https://www.academis.eu">Dr. Kristian Rother</a></p>
+    <p>
+        Source code available on 
+        <a href="https://github.com/krother/bookcamp_homework">https://github.com/krother/bookcamp_homework</a>
+    </p>
+</div>
+
+</body>
+</html>
