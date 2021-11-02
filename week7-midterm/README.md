@@ -55,7 +55,7 @@ The Jupyter notebook in the repo contains some EDA and attempts to use different
 
 ### Notes
 
-The deployment with gunicornd does something to the image encoding that distorts the colors.
+The deployment with gunicorn does something to the image encoding that distorts the colors.
 To run the development version, try:
 
     export FLASK_APP=app.py
