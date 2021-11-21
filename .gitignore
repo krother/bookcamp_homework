@@ -1,3 +1,7 @@
+
+week8/train/*
+week8/validation/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
